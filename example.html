@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Angular Moment Jalaali</title>
+	<meta charset="utf-8"/>
+	<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+	<script type="text/javascript" src="bower_components/moment-jalaali/build/moment-jalaali.js"></script>
+	<script type="text/javascript" src="angular-moment.js"></script>
+	<script type="text/javascript">
+var app = angular.module('app', ['angularMoment']);
+app.controller('MainController', function($scope, amMoment){
+	amMoment.loadPersian();
+	$scope.date = new Date();
+});
+	</script>
+</head>
+<body ng-controller="MainController">
+{{ date | amCalendar }}
+</body>
+</html>

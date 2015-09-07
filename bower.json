@@ -1,22 +1,43 @@
 {
-	"name": "angular-moment",
-	"description": "Moment.JS directives & filters for AngularJS (timeago alternative)",
-	"author": "Uri Shaked",
-	"license": "MIT",
-	"homepage": "http://github.com/urish/angular-moment",
-	"main": "./angular-moment.js",
-	"ignore": [
-	],
-	"dependencies": {
-		"angular": ">=1.2.0 <1.5.0",
-		"moment": ">=2.8.0 <2.11.0"
-	},
-	"devDependencies": {
-		"angular-mocks": "1.4.x",
-		"moment-timezone": "0.4.0"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/urish/angular-moment.git"
-	}
+  "name": "angular-moment-jalaali",
+  "description": "Jalaali support for angular-moment",
+  "author": "Masoud Bonabi",
+  "license": "MIT",
+  "homepage": "http://github.com/masious/angular-moment",
+  "main": "./angular-moment.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0 <1.5.0",
+    "moment": ">=2.8.0 <2.11.0",
+    "moment-jalaali": "~0.3.9"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.4.x",
+    "moment-timezone": "0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/masious/angular-moment.git"
+  },
+  "version": "0.01",
+  "authors": [
+    "Masoud Bonabi <masious@cafebazaar.ir>"
+  ],
+  "keywords": [
+    "jalaali",
+    "moment",
+    "angular",
+    "calendar",
+    "persian",
+    "date",
+    "shamsi",
+    "hijri",
+    "hejri"
+  ]
 }

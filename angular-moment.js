@@ -433,6 +433,10 @@
 
 					return aMoment;
 				};
+
+				this.loadPersian = function(){
+					return moment.loadPersian();
+				};
 			}])
 
 		/**
