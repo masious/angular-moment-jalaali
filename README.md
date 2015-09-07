@@ -1,7 +1,8 @@
 angular-moment
 ==============
 
-Jalaali support for angular-moment
+Jalaali support for angular-moment.
+
 You can find it's usage in example.html
 
 Installation
