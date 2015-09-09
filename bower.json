@@ -3,7 +3,7 @@
   "description": "Jalaali support for angular-moment",
   "author": "Masoud Bonabi",
   "license": "MIT",
-  "homepage": "http://github.com/masious/angular-moment",
+  "homepage": "http://github.com/masious/angular-moment-jalaali",
   "main": "./angular-moment.js",
   "ignore": [
     "**/.*",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/masious/angular-moment.git"
+    "url": "git://github.com/masious/angular-moment-jalaali.git"
   },
   "version": "0.01",
   "authors": [
